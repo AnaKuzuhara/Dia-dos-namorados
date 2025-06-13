@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viweport" content="width=device-width,initial acale-1.0">
+    <title> Pagina inicial</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #530b0b;
+        }
+
+        .botao{
+            background-color: #530b0b;
+            padding:15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color:#ffffff;
+            border:2px solid #cf4242;
+            border-radius: 10px;
+            cursor: pointer;
+            transition:background 0.3s ease-inout;
+          
+        
+        }
+
+        .botao:hover{
+            text-shadow: 0 0 20px rgb(252, 147, 147) ;
+            transform: scale(1.05);
+            background-color: rgba(255, 112, 112, 0.3);
+            opacity: 20;
+         
+
+        }
+
+    </style>
+
+</head>
+<body>
+ 
+        <button class="botao" onclick="abrirPagina()">❤️Click
+        </button>
+
+        <script>
+            function abrirPagina(){
+                window.location.href="homapage.html";
+
+            }
+
+
+        </script>
+</body>
+</html>
